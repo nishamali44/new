@@ -1,0 +1,174 @@
+body { margin-top: 50px; }
+@font-face {
+  font-family: 'katayam';
+  src:  url('../fonts/katayam.eot?33v0j6');
+  src:  url('../fonts/katayam.eot?33v0j6#iefix') format('embedded-opentype'),
+    url('../fonts/katayam.ttf?33v0j6') format('truetype'),
+    url('../fonts/katayam.woff?33v0j6') format('woff'),
+    url('../fonts/katayam.svg?33v0j6#katayam') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'katayam' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.katayam-home2:before {
+  content: "\e901";
+}
+.katayam-pencil2:before {
+  content: "\e906";
+}
+.katayam-camera:before {
+  content: "\e90f";
+}
+.katayam-circle-right:before {
+  content: "\ea42";
+}
+.katayam-circle-left:before {
+  content: "\ea44";
+}
+.katayam-google-plus:before {
+  content: "\ea8b";
+}
+.katayam-facebook:before {
+  content: "\ea90";
+}
+.katayam-twitter:before {
+  content: "\ea96";
+}
+.katayam-youtube2:before {
+  content: "\ea9e";
+}
+.katayam-linkedin2:before {
+  content: "\eaca";
+}
+.carousel { background: #000; }
+.carousel .item { height: 350px; overflow: hidden; }
+.carousel .item img { width: 100%; height: auto; margin-top: -35%; }
+.carousel-caption a { color: #fff; }
+
+.blog-element { display: block; height: 200px; overflow: hidden; background-position: center center; background-repeat: no-repeat; background-size: cover; }
+.blog-element a { color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,.5) }
+
+/*
+.second-row-padding:nth-child(2) { padding-right: 0; }
+.second-row-padding:nth-child(3) { padding-left: 0; }
+
+.third-row-padding { padding: 0; }
+.third-row-padding:nth-child(4) { padding-left: 15px; }
+.third-row-padding:last-child { padding-right: 15px; }
+*/
+.no-margin { margin: 0; }
+.blog-item { padding: 0; }
+/* header search form ================== */
+.search-form-container { display: none; position: fixed; top: 50px; left: 0; right: 0; background-color: rgba(0,0,0,.35); padding: 20px; z-index: 2; }
+.open-search a { font-size: 0; width: 30px; position: relative; }
+.open-search a:after { 
+display: block;
+position: absolute; 
+font-family: 'Glyphicons Halflings';
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+content:"\e003";
+font-size: 20px;
+left: 0;
+top: 50%;
+line-height: 1em;
+margin-top: -0.5em;
+}
+/* 
+	Footer Section
+	------------------------------------------------
+*/
+.katayam-footer {
+  background-color: #000;
+  max-width:100%;
+  height:100px;
+  padding: 15px 0;
+  margin-bottom: 0;
+  display: block;
+  overflow:hidden;
+  position:relative;
+   bottom:0px; 
+  }
+
+  
+
+  .katayam-footer p {
+    font-size: 17px;
+    line-height: 1.5em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    padding-right: 5px; }
+.col-sm-3 contact-info{
+		text-decoration:none;
+		
+	}
+	ul{
+		list-style-type:none;
+	}
+
+.navbar-katayam {
+
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  min-height: auto;
+  margin-bottom: 0;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0 15px; }
+ /* .header-container, .katayam-format-image .entry-header, .katayam-format-gallery .carousel-control {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); }*/
+  .row{
+	  margin-left:0px;
+	  margin-right:0px;
+	  
+	  overflow:auto;
+  }
+.header-container {
+  position: relative;
+  display: block;
+  height: 326px; }
+  @media (max-width:960px) {
+    .header-container {
+      height: 100px; } }
+
+.site-title {
+  color: #fff;
+  margin: 0; }
+
+.site-description {
+  font-size: 35px;
+  color: #fff;
+  margin-top: 1em; }
+	.html {
+    position: relative;
+    min-height: 100%;
+	margin:0;
+	padding:0;
+}
+.body{
+	font-size:13px;
+	margin:0;
+	padding:0;
+	height:100%;
+	
+}
